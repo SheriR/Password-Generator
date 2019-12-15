@@ -1,23 +1,20 @@
+//setting up the variables
+var upperEl = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lowerEl = 'abcdefghijklmnopqrstuvwxyz';
+var numEl = '0123456789';
+var numEl = '0123456789';
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// creating bucket for user's choices
+var userChoice = {};
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+// prompt for specified character length
+var charLength = parseInt(prompt("Please type in a number between 8 and 128."));
 
-  passwordText.value = password;
 
-  copyBtn.removeAttribute("disabled");
-  copyBtn.focus();
-}
 
-function copyToClipboard() {
-  // BONUS 
-}
+console.log(charLength)
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
-// BONUS EVENT LISTENER
