@@ -4,6 +4,7 @@
     margin-right: 10px;
     background-color:#dddddd;
     padding: 20px;
+    width: 850px
     height: 20em;
 }
 
@@ -18,16 +19,13 @@ h2 {
 
 .card {
     background-color: white;
-    margin-left: 20px;
+    margin: auto;
     width: 80%;
-    height: 10em;
-    outline-color: lightgray;        
-    margin-left: 20px;
-    width: 80%;
-    height: 18em;
+    outline-color: lightgray;      
+    height: 15em;
     border-style: solid;
     border-color: lightgrey;
-}
+ }
 
 .card-body {
     border: dashed;
