@@ -4,6 +4,7 @@
     margin-right: 10px;
     background-color:#dddddd;
     padding: 20px;
+    height: 20em;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 h2 {
     padding-top: 10px;
+    margin-left: 10px;
 }
 
 .card {
@@ -32,5 +34,12 @@ h2 {
     border-color: lightgray;
     height: 4em;
     margin: 10px;
+}
+
+.card-body textarea {
+    border: none;
+    text-align: center;
+    width: 98%;
+
 }
 
