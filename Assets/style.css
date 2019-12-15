@@ -6,6 +6,10 @@
     padding: 20px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .card {
     background-color: white;
     margin-left: 20px;
